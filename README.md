@@ -4,7 +4,7 @@
 
 Dog Breed Finder is a simple web application that lets users browse random dog images, search for dog images by breed, and save favorite dogs with notes. The project uses a Node.js backend, a Supabase database, and the external Dog CEO API.
 
-The main goal of the app is to give users an easy way to explore dog breeds while also meeting the INST377 final project requirements for frontend fetch calls, backend API endpoints, external API use, database reads/writes, and deployment.
+The main goal of the app is to give users a simple way to explore different dog breeds and keep track of dog images they like.
 
 Live site: https://inst377-ye-dog-breed-finder-22qhocybg.vercel.app/
 
@@ -87,7 +87,6 @@ Use this command:
 
 ```bash
 npm start
-```
 
 Then open:
 
@@ -99,7 +98,6 @@ For development with automatic restarts, use:
 
 ```bash
 npm run dev
-```
 
 ## How to run tests
 
