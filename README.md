@@ -6,6 +6,8 @@ Dog Breed Finder is a simple web application that lets users browse random dog i
 
 The main goal of the app is to give users an easy way to explore dog breeds while also meeting the INST377 final project requirements for frontend fetch calls, backend API endpoints, external API use, database reads/writes, and deployment.
 
+Live site: https://your-vercel-link.vercel.app
+
 ## Target browsers
 
 This project is designed for current desktop browsers:
