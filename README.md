@@ -60,23 +60,15 @@ inst377_Ye_DogBreedFinder/
     └── inst377_Ye_supabase_setup.sql
 ```
 
+
 ## How to install the application
 
 1. Clone the GitHub repository.
 2. Open the project folder in VS Code.
-3. Run this command in the terminal:
+3. Install the project dependencies:
 
 ```bash
 npm install
-```
-
-4. Create a `.env` file in the main project folder.
-5. Copy the values from `inst377_Ye_env_template.txt` into `.env` and replace them with your real Supabase values:
-
-```bash
-SUPABASE_URL=your_supabase_project_url_here
-SUPABASE_ANON_KEY=your_supabase_anon_key_here
-```
 
 ## Supabase setup
 
