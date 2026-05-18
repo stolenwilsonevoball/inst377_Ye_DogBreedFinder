@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dog Finder | Dog Breed Finder</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link rel="stylesheet" href="inst377_Ye_styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+  <script src="inst377_Ye_dogs.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav-bar">
+      <a class="logo" href="/">Dog Breed Finder</a>
+      <div class="nav-links">
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/dogs">Dog Finder</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-heading">
+      <p class="eyebrow">Dog Finder</p>
+      <h1>Browse, search, and save dogs.</h1>
+      <p>Pick a breed or load a random dog. Then save the image with a quick note.</p>
+    </section>
+
+    <section class="finder-layout">
+      <article class="dog-card">
+        <div class="dog-image-wrap">
+          <img id="dog-image" src="" alt="Random dog from the Dog API">
+        </div>
+
+        <div class="form-row">
+          <label for="breed-select">Choose a breed</label>
+          <select id="breed-select">
+            <option value="">Loading breeds...</option>
+          </select>
+        </div>
+
+        <div class="button-row">
+          <button id="random-button" class="primary-button">Random Dog</button>
+          <button id="breed-button" class="secondary-button">Get Breed Image</button>
+        </div>
+
+        <div class="form-row">
+          <label for="note-input">Note</label>
+          <input id="note-input" type="text" placeholder="Example: looks like my friend's dog">
+        </div>
+
+        <button id="save-button" class="save-button">Save Favorite</button>
+        <p id="message-area" class="message-area"></p>
+      </article>
+
+      <article class="plain-card">
+        <h2>Saved breed chart</h2>
+        <p class="small-text">This chart updates from the dogs saved in Supabase.</p>
+        <canvas id="breed-chart"></canvas>
+      </article>
+    </section>
+
+    <section class="plain-card wide-card">
+      <div class="section-title-row">
+        <div>
+          <h2>Saved Dogs</h2>
+          <p class="small-text">Images saved from the app will show up here.</p>
+        </div>
+        <button id="refresh-button" class="secondary-button">Refresh Saved Dogs</button>
+      </div>
+
+      <div class="swiper saved-dogs-swiper">
+        <div class="swiper-wrapper" id="saved-dogs-wrapper"></div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>INST377 Dog Breed Finder</p>
+  </footer>
+</body>
+</html>

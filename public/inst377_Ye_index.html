@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dog Breed Finder</title>
+  <link rel="stylesheet" href="inst377_Ye_styles.css">
+  <script src="inst377_Ye_main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav-bar">
+      <a class="logo" href="/">Dog Breed Finder</a>
+      <div class="nav-links">
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/dogs">Dog Finder</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero-card">
+      <div>
+        <p class="eyebrow">INST377 Final Project</p>
+        <h1>Find dog breeds and save your favorites.</h1>
+        <p class="hero-text">
+          This web app lets users load random dog pictures, browse by breed, and save favorite dogs with a short note.
+        </p>
+        <div class="button-row">
+          <a class="primary-button" href="/dogs">Open Dog Finder</a>
+          <a class="secondary-button" href="/about">About the project</a>
+        </div>
+      </div>
+      <div class="hero-side-card">
+        <h2>Project requirements covered</h2>
+        <ul>
+          <li>Node.js backend</li>
+          <li>Supabase database</li>
+          <li>External Dog API</li>
+          <li>Chart.js and Swiper.js</li>
+          <li>Vercel deployment ready</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="info-grid">
+      <article>
+        <h2>Browse dogs</h2>
+        <p>Use the external Dog CEO API through the backend to get random dogs and breed-based images.</p>
+      </article>
+      <article>
+        <h2>Save favorites</h2>
+        <p>Save breed names, dog image links, and notes to the Supabase database.</p>
+      </article>
+      <article>
+        <h2>View patterns</h2>
+        <p>The app creates a simple chart showing which breeds were saved the most.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p id="server-status">Checking server...</p>
+  </footer>
+</body>
+</html>

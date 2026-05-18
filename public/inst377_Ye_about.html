@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | Dog Breed Finder</title>
+  <link rel="stylesheet" href="inst377_Ye_styles.css">
+  <script src="inst377_Ye_main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav-bar">
+      <a class="logo" href="/">Dog Breed Finder</a>
+      <div class="nav-links">
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/dogs">Dog Finder</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-heading">
+      <p class="eyebrow">About the App</p>
+      <h1>A simple dog browsing app built with a real backend.</h1>
+      <p>
+        Dog Breed Finder is made for people who want a casual way to explore dog breeds and keep track of dogs they like.
+        The project is also designed to show the required web development skills for INST377.
+      </p>
+    </section>
+
+    <section class="two-column-section">
+      <article class="plain-card">
+        <h2>Target users</h2>
+        <p>
+          The main users are dog lovers, students, and people who are curious about dog breeds. The design keeps the app simple
+          so users do not need instructions to start browsing.
+        </p>
+      </article>
+
+      <article class="plain-card">
+        <h2>Target browsers</h2>
+        <p>
+          The app is designed for current desktop versions of Chrome, Edge, Firefox, and Safari. It should also work on mobile browsers,
+          but the main target is desktop use.
+        </p>
+      </article>
+    </section>
+
+    <section class="plain-card wide-card">
+      <h2>How the technology fits together</h2>
+      <p>
+        The frontend never calls the Dog API or Supabase directly. It uses Fetch API to call the Node/Express backend.
+        The backend handles the external Dog API requests and the Supabase database requests. This keeps the project organized
+        and matches the final project requirement that frontend data loads go through the backend.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p id="server-status">Checking server...</p>
+  </footer>
+</body>
+</html>

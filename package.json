@@ -1,0 +1,22 @@
+{
+  "name": "inst377-ye-dog-breed-finder",
+  "version": "1.0.0",
+  "description": "INST377 final project - Dog Breed Finder using Node, Supabase, and Dog CEO API",
+  "main": "inst377_Ye_server.js",
+  "scripts": {
+    "start": "node inst377_Ye_server.js",
+    "dev": "nodemon inst377_Ye_server.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.8",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
