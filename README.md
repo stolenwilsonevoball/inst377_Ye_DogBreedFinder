@@ -48,7 +48,6 @@ inst377_Ye_DogBreedFinder/
 ├── package.json
 ├── vercel.json
 ├── inst377_Ye_server.js
-├── inst377_Ye_env_template.txt
 ├── public/
 │   ├── inst377_Ye_index.html
 │   ├── inst377_Ye_about.html
